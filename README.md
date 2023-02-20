@@ -6,15 +6,15 @@ Basic git commands and configurations that I use:
 </pre>  
 # commands  
 <pre>
-git pull origin branch_name                  <-- If upstream is set git pull is enough  
+git pull origin branch_name                          <-- If upstream is set git pull is enough  
 git branch new_branch_name  
 git checkout branch_to_go  
 git push origin branch_to_publish                    <-- To push the branch for the first time  
 git push --set-upstream origin feature/eesoysaltatar <-- Set the origin representation of the local  
 git status  
-git add .                                    <-- Adds everything to staging  
+git add .                                            <-- Adds everything to staging  
 git commit -m "my commit message"  
-git log  
+git log                                              <-- Shows branch distributions if added --graph
 git push  
 git diff  
 git mergetool  
