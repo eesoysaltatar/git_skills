@@ -1,17 +1,18 @@
-<pre>
-2023-02-20  EESOYSALTATAR  Added git root alias along with the titles. (This line should create a merge conflict with the changes from feature/person_1)
+<pre> 
+2023-02-20  PERSON_1       Added explanations. 
+2023-02-20  EESOYSALTATAR  Added git root alias along with the titles.  
   
 Basic git commands and configurations that I use:  
 </pre>  
 # commands  
 <pre>
-git pull  
+git pull origin branch_name                  <-- If upstream is set git pull is enough  
 git branch new_branch_name  
 git checkout branch_to_go  
 git push origin branch_to_publish                    <-- To push the branch for the first time  
 git push --set-upstream origin feature/eesoysaltatar <-- Set the origin representation of the local  
 git status  
-git add .  
+git add .                                    <-- Adds everything to staging  
 git commit -m "my commit message"  
 git log  
 git push  
